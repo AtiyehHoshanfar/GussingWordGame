@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_splash_activity"
+    android:layout_width="match_parent"
+    android:layout_height="852dp"
+    android:background="@drawable/container_splash_activity">
+
+    <ImageView
+        android:id="@+id/image_icon_wordify"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/iconwordify" />
+
+    <TextView
+        android:id="@+id/text_wordify_game"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Wordify Game"
+        android:textColor="#FFFFFFFF"
+        android:textSize="28dp" />
+</FrameLayout>
