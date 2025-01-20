@@ -2,8 +2,6 @@
 
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container_levels_activity"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -27,20 +25,20 @@
         android:singleLine="true"
         android:text="Difficult"
         android:textColor="#FFFFFFFF"
-        android:textSize="48dp" />
+        android:textSize="48sp" />
 
     <FrameLayout
         android:id="@+id/container_frame27"
         android:layout_width="114.28dp"
         android:layout_height="132.09dp"
         android:layout_marginTop="159.19dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector27"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -56,7 +54,7 @@
             android:singleLine="true"
             android:text="level 27"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -64,13 +62,13 @@
         android:layout_width="114.28dp"
         android:layout_height="132.09dp"
         android:layout_marginTop="367.19dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector32"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -86,7 +84,7 @@
             android:singleLine="true"
             android:text="level 32"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -94,13 +92,13 @@
         android:layout_width="114.28dp"
         android:layout_height="132.09dp"
         android:layout_marginTop="575.19dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector37"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -116,7 +114,7 @@
             android:singleLine="true"
             android:text="level 37"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -125,13 +123,13 @@
         android:layout_height="132.09dp"
         android:layout_marginLeft="119dp"
         android:layout_marginTop="159dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector28"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -147,7 +145,7 @@
             android:singleLine="true"
             android:text="level 28"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -156,13 +154,13 @@
         android:layout_height="132.09dp"
         android:layout_marginLeft="119dp"
         android:layout_marginTop="367dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector33"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -178,7 +176,7 @@
             android:singleLine="true"
             android:text="level 33"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -187,13 +185,13 @@
         android:layout_height="132.09dp"
         android:layout_marginLeft="118dp"
         android:layout_marginTop="575dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector38"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -209,7 +207,7 @@
             android:singleLine="true"
             android:text="level 38"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -218,13 +216,13 @@
         android:layout_height="132.09dp"
         android:layout_marginLeft="59dp"
         android:layout_marginTop="263dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector30"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -240,7 +238,7 @@
             android:singleLine="true"
             android:text="level 30"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -249,13 +247,13 @@
         android:layout_height="132.09dp"
         android:layout_marginLeft="59dp"
         android:layout_marginTop="471dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector35"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -271,7 +269,7 @@
             android:singleLine="true"
             android:text="level 35"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -280,13 +278,13 @@
         android:layout_height="132.09dp"
         android:layout_marginLeft="239dp"
         android:layout_marginTop="159dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector29"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -302,7 +300,7 @@
             android:singleLine="true"
             android:text="level 29"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -311,13 +309,13 @@
         android:layout_height="132.09dp"
         android:layout_marginLeft="239dp"
         android:layout_marginTop="367dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector34"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -333,7 +331,7 @@
             android:singleLine="true"
             android:text="level 34"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -342,13 +340,13 @@
         android:layout_height="132.09dp"
         android:layout_marginLeft="238dp"
         android:layout_marginTop="575dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector39"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -364,7 +362,7 @@
             android:singleLine="true"
             android:text="level 39"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -373,13 +371,13 @@
         android:layout_height="132.09dp"
         android:layout_marginLeft="179dp"
         android:layout_marginTop="263dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector31"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -395,7 +393,7 @@
             android:singleLine="true"
             android:text="level 31"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 
     <FrameLayout
@@ -404,13 +402,13 @@
         android:layout_height="132.09dp"
         android:layout_marginLeft="179dp"
         android:layout_marginTop="471dp"
-        android:layout_gravity="top|left">
+        android:layout_gravity="top|start">
 
         <ImageView
             android:id="@+id/image_vector36"
             android:layout_width="114.28dp"
             android:layout_height="132.09dp"
-            android:layout_gravity="top|left"
+            android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
 
@@ -426,6 +424,6 @@
             android:singleLine="true"
             android:text="level 36"
             android:textColor="#FF000000"
-            android:textSize="24dp" />
+            android:textSize="24sp" />
     </FrameLayout>
 </RelativeLayout>

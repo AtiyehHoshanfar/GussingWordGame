@@ -29,5 +29,5 @@
         android:singleLine="true"
         android:text="Wordify Game"
         android:textColor="#FFFFFFFF"
-        android:textSize="28dp" />
+        android:textSize="28sp" />
 </FrameLayout>
