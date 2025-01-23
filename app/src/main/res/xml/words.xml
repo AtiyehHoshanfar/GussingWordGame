@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<words>
+    <word part="easy" level="level 1">air</word>
+    <word part="easy" level="level 2">bird</word>
+    <word part="easy" level="level 3">sand</word>
+    <word part="easy" level="level 4">leaf</word>
+    <word part="easy" level="level 5">hand</word>
+    <word part="easy" level="level 6">dark</word>
+    <word part="easy" level="level 7">clock</word>
+    <word part="easy" level="level 8">apple</word>
+    <word part="easy" level="level 9">fruit</word>
+    <word part="easy" level="level 10">pizza</word>
+    <word part="easy" level="level 11">river</word>
+    <word part="easy" level="level 12">dance</word>
+    <word part="easy" level="level 13">earth</word>
+
+    <word part="medium" level="level 14">above</word>
+    <word part="medium" level="level 15">eager</word>
+    <word part="medium" level="level 16">habit</word>
+    <word part="medium" level="level 17">heavy</word>
+    <word part="medium" level="level 18">judge</word>
+    <word part="medium" level="level 19">draft</word>
+    <word part="medium" level="level 20">beach</word>
+    <word part="medium" level="level 21">blame</word>
+    <word part="medium" level="level 22">knife</word>
+    <word part="medium" level="level 23">empty</word>
+    <word part="medium" level="level 24">album</word>
+    <word part="medium" level="level 25">angle</word>
+    <word part="medium" level="level 26">cycle</word>
+
+    <word part="difficult" level="level 27">believe</word>
+    <word part="difficult" level="level 28">leisure</word>
+    <word part="difficult" level="level 29">gateway</word>
+    <word part="difficult" level="level 30">measure</word>
+    <word part="difficult" level="level 31">nervous</word>
+    <word part="difficult" level="level 32">license</word>
+    <word part="difficult" level="level 33">benefit</word>
+    <word part="difficult" level="level 34">density</word>
+    <word part="difficult" level="level 35">private</word>
+    <word part="difficult" level="level 36">hunter</word>
+    <word part="difficult" level="level 37">storage</word>
+    <word part="difficult" level="level 38">package</word>
+    <word part="difficult" level="level 39">battery</word>
+
+</words>

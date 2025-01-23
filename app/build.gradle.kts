@@ -8,6 +8,9 @@ android {
     namespace = "com.example.guessingwordgame"
     compileSdk = 34
 
+
+
+
     defaultConfig {
         applicationId = "com.example.guessingwordgame"
         minSdk = 27
@@ -38,6 +41,7 @@ android {
         compose = true
         viewBinding = true
     }
+
 }
 
 dependencies {

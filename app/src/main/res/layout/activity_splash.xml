@@ -7,7 +7,7 @@
     android:id="@+id/container_splash_activity"
     android:layout_width="match_parent"
     android:layout_height="852dp"
-    android:background="@drawable/container_splash_activity">
+    android:background="@drawable/gradient_list">
 
     <ImageView
         android:id="@+id/image_icon_wordify"

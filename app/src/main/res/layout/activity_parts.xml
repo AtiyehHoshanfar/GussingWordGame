@@ -23,72 +23,47 @@
         android:textColor="#FFFFFFFF"
         android:textSize="48sp" />
 
-    <FrameLayout
-        android:id="@+id/container_easy_button"
+    <Button
+        android:id="@+id/easy_button"
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="64dp"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/container_easy_button">
+        android:text="Easy"
+        android:textColor="#FF0A0A0A"
+        android:textSize="48sp"
+        android:textAllCaps="false"
+        android:background="@drawable/container_easy_button"/>
 
-        <TextView
-            android:id="@+id/text_easy"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_marginTop="50dp"
-            android:layout_gravity="center_horizontal"
-            android:includeFontPadding="false"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:text="Easy"
-            android:textColor="#FF0A0A0A"
-            android:textSize="48sp" />
-    </FrameLayout>
 
-    <FrameLayout
-        android:id="@+id/container_medium_button"
+
+
+    <Button
+        android:id="@+id/medium_button"
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="16dp"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/container_medium_button">
+        android:text="Medium"
+        android:textColor="#FF0A0A0A"
+        android:textSize="48sp"
+        android:textAllCaps="false"
+        android:background="@drawable/container_medium_button"/>
 
-        <TextView
-            android:id="@+id/text_medium"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp"
-            android:includeFontPadding="false"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:text="medium"
-            android:textColor="#FF0A0A0A"
-            android:textSize="48sp" />
-    </FrameLayout>
-
-    <FrameLayout
-        android:id="@+id/container_difficult_button"
+    <Button
+        android:id="@+id/difficult_button"
         android:layout_width="match_parent"
         android:layout_height="160dp"
         android:layout_marginHorizontal="20dp"
         android:layout_marginTop="16dp"
         android:layout_gravity="center_horizontal"
-        android:background="@drawable/container_difficult_button">
+        android:text="Difficult"
+        android:textColor="#FF0A0A0A"
+        android:textSize="48sp"
+        android:textAllCaps="false"
+        android:background="@drawable/container_difficult_button"/>
 
-        <TextView
-            android:id="@+id/text_difficult"
-            android:layout_width="wrap_content"
-            android:layout_height="60dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginVertical="50dp"
-            android:includeFontPadding="false"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:text="difficult"
-            android:textColor="#FF0A0A0A"
-            android:textSize="48sp" />
-    </FrameLayout>
+
 </LinearLayout>

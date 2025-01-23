@@ -4,11 +4,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/container_levels_activity"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_gravity="center_horizontal"
     android:scaleType="centerInside"
     android:gravity="center"
-    android:paddingBottom="60dp"
     android:layout_centerInParent="true"
     android:background="@drawable/container_levels_activity">
 
@@ -19,7 +18,7 @@
         android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
         android:gravity="center_horizontal"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="32dp"
         android:includeFontPadding="false"
         android:maxLines="1"
         android:singleLine="true"
@@ -73,7 +72,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level2"
+            android:id="@+id/text_level6"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"
@@ -103,7 +102,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level3"
+            android:id="@+id/text_level11"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"
@@ -134,7 +133,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level4"
+            android:id="@+id/text_level2"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"
@@ -165,7 +164,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level5"
+            android:id="@+id/text_level7"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"
@@ -196,7 +195,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level6"
+            android:id="@+id/text_level12"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"
@@ -209,19 +208,7 @@
             android:textColor="#FF000000"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/text_level8"
-            android:layout_width="wrap_content"
-            android:layout_height="30dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50.81dp"
-            android:gravity="center"
-            android:includeFontPadding="false"
-            android:maxLines="1"
-            android:singleLine="true"
-            android:text="level 9"
-            android:textColor="#FF000000"
-            android:textSize="24sp" />
+
     </FrameLayout>
 
     <FrameLayout
@@ -241,7 +228,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level7"
+            android:id="@+id/text_level4"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"
@@ -270,6 +257,19 @@
             android:layout_gravity="top|start"
             android:scaleType="centerInside"
             android:src="@drawable/vector" />
+        <TextView
+            android:id="@+id/text_level9"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="50.81dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="level 9"
+            android:textColor="#FF000000"
+            android:textSize="24sp" />
 
     </FrameLayout>
 
@@ -290,7 +290,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level9"
+            android:id="@+id/text_level3"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"
@@ -321,7 +321,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level10"
+            android:id="@+id/text_level8"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"
@@ -352,7 +352,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level11"
+            android:id="@+id/text_level13"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"
@@ -383,7 +383,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level12"
+            android:id="@+id/text_level5"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"
@@ -414,7 +414,7 @@
             android:src="@drawable/vector" />
 
         <TextView
-            android:id="@+id/text_level13"
+            android:id="@+id/text_level10"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginTop="50.81dp"

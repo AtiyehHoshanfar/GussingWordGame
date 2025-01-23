@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:paddingBottom="60dp"
-    android:background="@drawable/container_game_activity">
+    android:background="@drawable/back">
 
     <TextView
         android:id="@+id/text_level"
@@ -23,6 +23,208 @@
         android:textColor="#FFFFFFFF"
         android:textSize="48sp" />
 
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="500dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+        <FrameLayout
+            android:id="@+id/container_frame"
+            android:layout_width="73dp"
+            android:layout_height="84.38dp"
+            >
+
+            <ImageView
+                android:id="@+id/image_vector"
+                android:layout_width="73dp"
+                android:layout_height="84.38dp"
+                android:layout_gravity="top|start"
+                android:scaleType="centerInside"
+                android:src="@drawable/vector2" />
+
+            <TextView
+                android:id="@+id/text_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="32sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_frame4"
+            android:layout_width="73dp"
+            android:layout_height="84.38dp"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="70dp">
+
+            <ImageView
+                android:id="@+id/image_vector1"
+                android:layout_width="73dp"
+                android:layout_height="84.38dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/vector2" />
+
+            <TextView
+                android:id="@+id/text_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="32sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_frame2"
+            android:layout_width="73dp"
+            android:layout_height="84.38dp"
+            android:layout_marginLeft="162dp">
+
+            <ImageView
+                android:id="@+id/image_vector2"
+                android:layout_width="73dp"
+                android:layout_height="84.38dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/vector2" />
+
+            <TextView
+                android:id="@+id/text_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="32sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_frame6"
+            android:layout_width="73dp"
+            android:layout_height="84.38dp"
+            android:layout_marginLeft="202dp"
+            android:layout_marginTop="70dp">
+
+            <ImageView
+                android:id="@+id/image_vector3"
+                android:layout_width="73dp"
+                android:layout_height="84.38dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/vector2" />
+
+            <TextView
+                android:id="@+id/text_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="32sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_frame3"
+            android:layout_width="73dp"
+            android:layout_height="84.38dp"
+            android:layout_marginLeft="243dp">
+
+            <ImageView
+                android:id="@+id/image_vector4"
+                android:layout_width="73dp"
+                android:layout_height="84.38dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/vector2" />
+
+            <TextView
+                android:id="@+id/text_four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="32sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_frame1"
+            android:layout_width="73dp"
+            android:layout_height="84.38dp"
+            android:layout_marginLeft="80dp">
+
+            <ImageView
+                android:id="@+id/image_vector5"
+                android:layout_width="73dp"
+                android:layout_height="84.38dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/vector2" />
+
+            <TextView
+                android:id="@+id/text_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="32sp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/container_frame5"
+            android:layout_width="73dp"
+            android:layout_height="84.38dp"
+            android:layout_marginLeft="121dp"
+            android:layout_marginTop="70dp"
+>
+
+            <ImageView
+                android:id="@+id/image_vector6"
+                android:layout_width="73dp"
+                android:layout_height="84.38dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/vector2" />
+
+            <TextView
+                android:id="@+id/text_six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#FF000000"
+                android:textSize="32sp" />
+        </FrameLayout>
+
+    </FrameLayout>
     <TextView
         android:id="@+id/text_score"
         android:layout_width="wrap_content"
@@ -83,4 +285,186 @@
             android:textColor="#FFFFFFFF"
             android:textSize="32sp" />
     </FrameLayout>
+
+
+
+
+        <LinearLayout
+            android:id="@+id/hearts_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="210dp"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:id="@+id/heart1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="❤️"
+                android:textColor="#FFFFFFFF"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/heart2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="❤️"
+                android:textColor="#FFFFFFFF"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/heart3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="❤️"
+                android:textColor="#FFFFFFFF"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/heart4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="❤️"
+                android:textColor="#FFFFFFFF"
+                android:textSize="40sp" />
+            <TextView
+                android:id="@+id/heart5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:text="❤️"
+                android:textColor="#FFFFFFFF"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="400dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_three"
+            android:layout_marginHorizontal="2dp">
+        <TextView
+            android:id="@+id/text_input1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+            android:text=""
+            android:gravity="center"
+            android:textSize="24sp"
+            android:textColor="#ffffff" />
+</FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_three"
+            android:layout_marginHorizontal="2dp">
+        <TextView
+            android:id="@+id/text_input2"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="24sp"
+            android:textColor="#ffffff"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_three"
+            android:layout_marginHorizontal="2dp">
+        <TextView
+            android:id="@+id/text_input3"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+           />
+</FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_three"
+            android:layout_marginHorizontal="2dp">
+        <TextView
+            android:id="@+id/text_input4"
+            android:layout_width="48dp"
+            android:text=""
+            android:gravity="center"
+            android:layout_height="48dp"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_three"
+            android:layout_marginHorizontal="2dp">
+        <TextView
+            android:id="@+id/text_input5"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            />
+</FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_three"
+            android:layout_marginHorizontal="2dp">
+        <TextView
+            android:id="@+id/text_input6"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text=""
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+           />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_three"
+            android:layout_marginHorizontal="2dp">
+            <TextView
+                android:id="@+id/text_input7"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="#ffffff"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+
 </FrameLayout>
