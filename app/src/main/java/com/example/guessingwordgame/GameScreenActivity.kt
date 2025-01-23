@@ -181,29 +181,7 @@ class GameScreenActivity : AppCompatActivity() {
             findViewById<TextView>(R.id.text_input6),
             findViewById<TextView>(R.id.text_input7)
         )
-        inputFields.forEach { textView ->
-            textView.text = ""
-            textView.setOnClickListener { handleTextInput(textView) }
-        }
-    }
-    private fun handleTextInput(textView: TextView) {
-        val sampleLetter = "A"
-        textView.text = sampleLetter
-    }
-    private fun initializeInputListeners() {
-        val inputFields = listOf(
-            findViewById<TextView>(R.id.text_input1),
-            findViewById<TextView>(R.id.text_input2),
-            findViewById<TextView>(R.id.text_input3),
-            findViewById<TextView>(R.id.text_input4),
-            findViewById<TextView>(R.id.text_input5),
-            findViewById<TextView>(R.id.text_input6),
-            findViewById<TextView>(R.id.text_input7)
-        )
-
-        inputFields.forEach { textView ->
-            textView.setOnClickListener { handleTextInput(textView) }
-        }
+        inputFields.forEach { it.text = "" }
     }
     private fun reduceHeart() {
         val hearts = listOf(
@@ -303,7 +281,7 @@ class GameScreenActivity : AppCompatActivity() {
             Toast.makeText(this, "try again", Toast.LENGTH_SHORT).show()
             reduceHeart()
             clearInputFields()
-            initializeInputListeners()
+
         }
     }
     private fun loadNextLevel() {

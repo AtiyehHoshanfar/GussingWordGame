@@ -23,6 +23,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="Difficult"
+        android:fontFamily="@font/rowdies"
         android:textColor="#FFFFFFFF"
         android:textSize="48sp" />
 
@@ -52,6 +53,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="level 27"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FF000000"
             android:textSize="24sp" />
     </FrameLayout>
@@ -82,6 +84,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="level 32"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FF000000"
             android:textSize="24sp" />
     </FrameLayout>
@@ -111,6 +114,7 @@
             android:includeFontPadding="false"
             android:maxLines="1"
             android:singleLine="true"
+            android:fontFamily="@font/rowdies"
             android:text="level 37"
             android:textColor="#FF000000"
             android:textSize="24sp" />
@@ -143,6 +147,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="level 28"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FF000000"
             android:textSize="24sp" />
     </FrameLayout>
@@ -174,6 +179,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="level 33"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FF000000"
             android:textSize="24sp" />
     </FrameLayout>
@@ -205,6 +211,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="level 38"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FF000000"
             android:textSize="24sp" />
     </FrameLayout>
@@ -236,6 +243,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="level 30"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FF000000"
             android:textSize="24sp" />
     </FrameLayout>
@@ -267,6 +275,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="level 35"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FF000000"
             android:textSize="24sp" />
     </FrameLayout>
@@ -297,6 +306,7 @@
             android:includeFontPadding="false"
             android:maxLines="1"
             android:singleLine="true"
+            android:fontFamily="@font/rowdies"
             android:text="level 29"
             android:textColor="#FF000000"
             android:textSize="24sp" />
@@ -329,6 +339,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="level 34"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FF000000"
             android:textSize="24sp" />
     </FrameLayout>
@@ -359,6 +370,7 @@
             android:includeFontPadding="false"
             android:maxLines="1"
             android:singleLine="true"
+            android:fontFamily="@font/rowdies"
             android:text="level 39"
             android:textColor="#FF000000"
             android:textSize="24sp" />
@@ -391,6 +403,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="level 31"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FF000000"
             android:textSize="24sp" />
     </FrameLayout>
@@ -421,6 +434,7 @@
             android:includeFontPadding="false"
             android:maxLines="1"
             android:singleLine="true"
+            android:fontFamily="@font/rowdies"
             android:text="level 36"
             android:textColor="#FF000000"
             android:textSize="24sp" />

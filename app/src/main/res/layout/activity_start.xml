@@ -21,6 +21,7 @@
         android:singleLine="true"
         android:text="Wordify"
         android:textColor="#FFFFFFFF"
+        android:fontFamily="@font/rowdies"
         android:textSize="72sp" />
 
     <ImageView
@@ -41,6 +42,7 @@
         android:layout_gravity="center_horizontal"
         android:background="@drawable/container_start_button"
         android:text="START"
+        android:fontFamily="@font/rowdies"
         android:textSize="32sp"
         android:textColor="#FFFFFEE9"/>
 </LinearLayout>

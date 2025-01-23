@@ -28,6 +28,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="Wordify Game"
+        android:fontFamily="@font/rowdies"
         android:textColor="#FFFFFFFF"
         android:textSize="28sp" />
 </FrameLayout>

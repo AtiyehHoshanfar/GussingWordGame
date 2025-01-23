@@ -20,6 +20,7 @@
         android:maxLines="1"
         android:singleLine="true"
         android:text="Level 1"
+        android:fontFamily="@font/rowdies"
         android:textColor="#FFFFFFFF"
         android:textSize="48sp" />
 
@@ -55,6 +56,7 @@
                 android:singleLine="true"
                 android:text=""
                 android:textColor="#FF000000"
+                android:fontFamily="@font/rowdies"
                 android:textSize="32sp" />
         </FrameLayout>
 
@@ -83,6 +85,7 @@
                 android:singleLine="true"
                 android:text=""
                 android:textColor="#FF000000"
+                android:fontFamily="@font/rowdies"
                 android:textSize="32sp" />
         </FrameLayout>
 
@@ -110,6 +113,7 @@
                 android:singleLine="true"
                 android:text=""
                 android:textColor="#FF000000"
+                android:fontFamily="@font/rowdies"
                 android:textSize="32sp" />
         </FrameLayout>
 
@@ -138,6 +142,7 @@
                 android:singleLine="true"
                 android:text=""
                 android:textColor="#FF000000"
+                android:fontFamily="@font/rowdies"
                 android:textSize="32sp" />
         </FrameLayout>
 
@@ -164,6 +169,7 @@
                 android:maxLines="1"
                 android:singleLine="true"
                 android:text=""
+                android:fontFamily="@font/rowdies"
                 android:textColor="#FF000000"
                 android:textSize="32sp" />
         </FrameLayout>
@@ -191,6 +197,7 @@
                 android:maxLines="1"
                 android:singleLine="true"
                 android:text=""
+                android:fontFamily="@font/rowdies"
                 android:textColor="#FF000000"
                 android:textSize="32sp" />
         </FrameLayout>
@@ -220,6 +227,7 @@
                 android:maxLines="1"
                 android:singleLine="true"
                 android:text=""
+                android:fontFamily="@font/rowdies"
                 android:textColor="#FF000000"
                 android:textSize="32sp" />
         </FrameLayout>
@@ -259,6 +267,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="💗"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FF000000"
             android:textSize="32sp" />
     </FrameLayout>
@@ -282,6 +291,7 @@
             android:maxLines="1"
             android:singleLine="true"
             android:text="💡"
+            android:fontFamily="@font/rowdies"
             android:textColor="#FFFFFFFF"
             android:textSize="32sp" />
     </FrameLayout>
@@ -368,7 +378,7 @@
             android:id="@+id/text_input1"
             android:layout_width="48dp"
             android:layout_height="48dp"
-
+            android:fontFamily="@font/rowdies"
             android:text=""
             android:gravity="center"
             android:textSize="24sp"
@@ -385,6 +395,7 @@
             android:layout_height="48dp"
             android:gravity="center"
             android:text=""
+            android:fontFamily="@font/rowdies"
             android:textSize="24sp"
             android:textColor="#ffffff"/>
         </FrameLayout>
@@ -399,6 +410,7 @@
             android:layout_height="48dp"
             android:gravity="center"
             android:text=""
+            android:fontFamily="@font/rowdies"
             android:textSize="24sp"
             android:textColor="#ffffff"
            />
@@ -415,6 +427,7 @@
             android:gravity="center"
             android:layout_height="48dp"
             android:textSize="24sp"
+            android:fontFamily="@font/rowdies"
             android:textColor="#ffffff"
             />
         </FrameLayout>
@@ -429,6 +442,7 @@
             android:layout_height="48dp"
             android:gravity="center"
             android:text=""
+            android:fontFamily="@font/rowdies"
             android:textSize="24sp"
             android:textColor="#ffffff"
             />
@@ -444,6 +458,7 @@
             android:layout_height="48dp"
             android:gravity="center"
             android:text=""
+            android:fontFamily="@font/rowdies"
             android:textSize="24sp"
             android:textColor="#ffffff"
            />
@@ -459,6 +474,7 @@
                 android:layout_height="48dp"
                 android:gravity="center"
                 android:text=""
+                android:fontFamily="@font/rowdies"
                 android:textSize="24sp"
                 android:textColor="#ffffff"
                 />
